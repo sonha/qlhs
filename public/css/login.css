@@ -1,0 +1,143 @@
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+/* CSS Document */
+body
+{
+
+                background: url(/images/bg-login.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            /*background-image: linear-gradient(90deg, #4F364C, #FFFFFF);*/
+ 
+	/*background:url(../images/body.jpg) repeat-x;*/
+}
+body, p, ul, li, h1, h2, h3
+{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:Verdana;
+	color:#243135;
+}
+.login-form {
+    font: 16px/2em Lato, serif;
+    margin: 10px auto;
+    max-width: 400px;
+}
+form[role=login] {
+    color: #5d5d5d;
+    background: #f2f2f2;
+    padding: 26px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+form[role=login] input, form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+}
+.designwebissmall {font-size:11px; color:#b0d37b; }
+.designwebissmalldwd {font-size:11px; color:#707070; }
+.designwebissmallhd {font-size:11px; color:#990000; }
+#fw_frame
+{
+	margin-top:100px;
+	margin-bottom:35px;
+	width:720px;
+	text-align:center;
+	clear:both;
+}
+#frame_1, #frame_2
+{
+	width:341px;
+	height:200px;
+}
+#frame_1
+{
+	float:left;
+	background:url(../images/menu_container.gif) top right repeat-x #fff;
+	border-left:solid 1px #dddddd;
+	padding:4px 5px 0px 4px;
+}
+#frame_2
+{
+	float:right;
+	background:url(../images/menu_container.gif) top left repeat-x #fff;
+	border-right:solid 1px #dddddd;
+	padding:4px 4px 0px 5px;
+}
+
+#frame_1 h3, #frame_2 h3
+{
+	line-height:34px;
+	background:url(../images/nav.png) left -50px repeat-x;
+	padding-left:10px;
+	padding-right:10px;
+	color:#FFFFFF;
+}
+#frame_1 h3
+{
+	text-align:left;
+}
+#frame_2 h3
+{
+	text-align:right;
+}
+#frame_1 .content, #frame_2 .content
+{
+	text-align:left;
+	padding-top:20px;
+}
+.inputbox
+{
+	background:#f8fafa;
+	border:solid 1px #abc6dd;
+	height:19px;
+	padding:3px;
+	color:#707070;
+	font-family:Verdana;
+	font-size:11px;
+}
+.inputbox:hover, .inputbox:focus
+{
+	border:solid 1px #4e6972;
+	background:#e2ebeb;
+}
+.button
+{
+	font-family:Verdana;
+	font-size:11px;
+	color:#fff;
+	background:url(../images/nav.png) left -51px repeat-x;	
+	border:solid 1px #abc6dd;
+	height:23px;
+}
+#copyright
+{
+	line-height:15px;
+}
+#copyright a
+{
+	color:#243135;
+	text-decoration:none;
+}
+#copyright a:hover
+{
+	text-decoration:underline;
+}
